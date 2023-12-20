@@ -1,4 +1,0 @@
-default text
-
-1. option_1 | new1.txt
-2. option_2 | new2.txt

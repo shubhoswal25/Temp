@@ -15,6 +15,8 @@
             height: 100vh;
         }
         .container {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-size-adjust: 40 ;
             background-color: rgba(255, 255, 255, 0.7);
             text-align: center;
             padding: 20px;
@@ -22,7 +24,7 @@
         .buttons {
             margin-top: 20px;
         }
-    </style>
+        </style>
 </head>
 <body>
     <form action="/button_clicked" method="post">
@@ -41,7 +43,15 @@
     
                     <button type="submit" name="button" value="{{ 'button_' ~ button_number }}">{{ 'Scenario ' ~ button_number }}</button>
                 {% endfor %}
-            {% endif %}
+            {% endif %} 
+            <div class="buttons">
+                <a href="{{ url_for('reset_story') }}">Reset the Story</a>
+            </div>
+    
+            <!-- Add a button/link to quit the story -->
+            <div class="buttons">
+                <a href="{{ url_for('quit_story') }}">Quit the Story</a>
+        </div>
         </div>
     </form>    
 </body>
