@@ -24,7 +24,7 @@ def get_next_option(file_path):
 background_image = "static/background.jpg"  # Update with your image file path
 
 current_option = {
-    'file': "static/intro.txt",
+    'file': "static/start.txt",
 }
 
 @app.route('/')

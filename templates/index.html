@@ -25,18 +25,24 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <div>
-            <p>{{ story }}</p>
-        </div>
-        <form action="/button_clicked" method="post">
+    <form action="/button_clicked" method="post">
+        <div class="container">
+            <div>
+                <p>{{ story }}</p>
+            </div>
+    
             {% if options %}
                 {% for option_index in range(options|length) %}
                     {% set button_number = option_index + 1 %}
-                    <button type="submit" name="button" value="{{ 'button_' ~ button_number }}">{{ options[option_index]['text'] }}</button>
+                    
+                    <div>
+                        <p>{{ options[option_index]['text'] }}</p>
+                    </div>
+    
+                    <button type="submit" name="button" value="{{ 'button_' ~ button_number }}">{{ 'Scenario ' ~ button_number }}</button>
                 {% endfor %}
             {% endif %}
-        </form>
-    </div>
+        </div>
+    </form>    
 </body>
 </html>
