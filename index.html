@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask App</title>
+    <style>
+        body {
+            background-image: url("{{ background_image }}");
+            background-size: cover;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.7);
+            text-align: center;
+            padding: 20px;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="/button_clicked" method="post">
+        <div class="container">
+            <div>
+                <p>{{ story }}</p>
+            </div>
+    
+            {% if options %}
+                {% for option_index in range(options|length) %}
+                    {% set button_number = option_index + 1 %}
+                    
+                    <div>
+                        <p>{{ options[option_index]['text'] }}</p>
+                    </div>
+    
+                    <button type="submit" name="button" value="{{ 'button_' ~ button_number }}">{{ 'Scenario ' ~ button_number }}</button>
+                {% endfor %}
+            {% endif %}
+        </div>
+    </form>    
+</body>
+</html>
