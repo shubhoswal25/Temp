@@ -1,0 +1,4 @@
+Noticing footprints outside, Blanc wonders if they're relevant. He deciphers that someone came in the room from the window and decides to investigate further. Does he...
+
+1: Follow the footprints | follow_footprints.txt
+2: Interview Marta, Harlan's caregiver | interview_marta.txt

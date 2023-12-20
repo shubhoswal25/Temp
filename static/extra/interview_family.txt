@@ -1,0 +1,4 @@
+Blanc decides to gather information from the family first. Who should he talk to?
+
+1: Talk to Linda, Harlan's daughter | talk_linda.txt
+2: Talk to Walt, Harlan's son | talk_walt.txt

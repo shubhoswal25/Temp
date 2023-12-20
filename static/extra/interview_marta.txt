@@ -1,0 +1,4 @@
+Marta is the nurse of Harlan and believes she injected Harlan with a lethal dose of morphine after mixing up his medications the night after the party. Marta shares insights about the family's dynamics later. Does Blanc...
+
+1: Talk to Ransom, Harlan's grandson | talk_ransom.txt
+2: Talk to Walt, Harlan's son | talk_walt.txt

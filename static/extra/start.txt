@@ -1,0 +1,4 @@
+In this interactive story inspired by "Knives Out," Detective Blanc is summoned to investigate the mysterious death of wealthy novelist Harlan Thrombey at his grand estate. The story is structured to allow players to explore various aspects of the mystery through their choices, each representing a crucial juncture in the investigation. Players make choices that guide Blanc through interviews with family members, examination of the crime scene, and analysis of key evidence. Each path brings him closer to the truth. Detective Blanc arrives at the Thrombey estate to investigate Harlan's mysterious death. Does he start by interviewing the family or inspecting the crime scene?
+
+1: Interview the family | interview_family.txt
+2: Inspect the crime scene | inspect_crime_scene.txt

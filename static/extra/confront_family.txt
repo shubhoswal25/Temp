@@ -1,0 +1,3 @@
+Blanc confronts the family with all the gathered evidence, leading to heated arguments and revelations. In a twist, it's revealed that Marta was framed, and the real killer is Ransom because Harlan had told Ransom about his will, and that Ransom had then swapped Harlan's medicines to ensure that Marta would accidentally kill him and thus be ineligible to claim the inheritance.
+
+1: Return to reassess the case | reassess_case.txt

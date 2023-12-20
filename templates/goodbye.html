@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goodbye</title>
+    <style>
+        body {
+            background-image: url("{{ url_for( 'static', filename = 'goodbye.jpeg')}}" );
+            background-size: cover;
+            margin: 0;
+            display: flex;
+            align-items: flex-start; /* Align text to the top of the page */
+            justify-content: center;
+            height: 100vh;
+            color: white; /* Set text color to white */
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.7); /* Update to adjust the background color opacity */
+            text-align: center;
+            padding: 20px;
+            width: 100%; /* Set container width to 100% */
+        }
+        /* Additional styles as needed */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Goodbye!</h1>
+        
+      <div class="button-container">
+            <a href="{{ url_for('index') }}" style="color: white; text-decoration: none; padding: 10px 20px; background-color: #337ab7; border-radius: 5px;">Go Back to Story</a>
+        </div>
+    </div>
+</body>
+</html>

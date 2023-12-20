@@ -1,0 +1,4 @@
+The footprints lead to a hidden area with more clues. They turn out to be marta's footprints and Blanc tells Marta he suspected early on that she played a part in Harlan's death, noting a drop of blood on her shoe. Does Blanc...
+
+1: Confront the family with these findings | confront_family.txt
+2: Return to reassess the case | reassess_case.txt

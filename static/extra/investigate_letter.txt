@@ -1,0 +1,4 @@
+The letter suggests a family member was about to be cut off and after further investigation ransom turns out to be the one getting cut off from the family. Does Blanc...
+
+1: Interview Marta, Harlan's caregiver | interview_marta.txt
+2: Look out the window | look_window.txt

@@ -1,0 +1,4 @@
+Linda mentions the changes in Harlan's will. Does Blanc...
+
+1: Ask more about the will | ask_linda_will.txt
+2: Return to the crime scene | inspect_crime_scene.txt

@@ -1,0 +1,5 @@
+Linda reveals Harlan's recent will changes and the will states that the entire fortune will go to marta rather than any of the family members, this decision leaves all the family members mesmerized. Does Blanc...
+
+1: Talk to Ransom, Harlan's grandson | talk_ransom.txt
+2: Talk to Walt, Harlan's son | talk_walt.txt 
+3: Talk to Marta, Harlan's caregiver | interview_marta.txt 

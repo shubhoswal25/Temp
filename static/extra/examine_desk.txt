@@ -1,0 +1,4 @@
+Blanc finds a torn letter hinting at a family secret. Does he...
+
+1: Investigate the letter | investigate_letter.txt
+2: Interview Marta, Harlan's caregiver | interview_marta.txt

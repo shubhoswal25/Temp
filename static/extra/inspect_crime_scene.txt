@@ -1,0 +1,4 @@
+At the crime scene, Blanc looks for clues. Where does he focus his attention?
+
+1: Examine the desk | examine_desk.txt
+2: Look out the window | look_window.txt

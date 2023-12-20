@@ -1,0 +1,4 @@
+Ransom shows disdain for the family and hints at knowing a secret which makes blanc a bit cautious about him. Does Blanc...
+
+1: Talk to Walt, Harlan's son | talk_walt.txt
+2: Inspect the crime scene | inspect_crime_scene.txt

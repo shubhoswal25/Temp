@@ -1,0 +1,4 @@
+Blanc uncovers financial irregularities in Harlan's business. Does he...
+
+1: Interview Marta, Harlan's caregiver | interview_marta.txt
+2: Inspect the crime scene | inspect_crime_scene.txt

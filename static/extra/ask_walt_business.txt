@@ -1,0 +1,4 @@
+Walt admits to tensions over the business. Does Blanc...
+
+1: Investigate Harlan's business dealings | investigate_business.txt
+2: Inspect the crime scene | inspect_crime_scene.txt
